@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: goated_guy_in_suit.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there! My name is Nathan Kassai. I am an undergraduate researcher DASL (Drones and Autonomous Systems Laboratory) at the University of Nevada, Las Vegas. I love all things robotics and video games; sometimes I get a chance to combine my love for both in the work I do by using Unity to create Virtual Reality Interfaces for Robots. On my website, I have some cool projects of stuff I've done in the past, take a look around!
+Hi there! My name is Nathan Kassai. I am an undergraduate researcher at DASL—Drones and Autonomous Systems Laboratory—at the University of Nevada, Las Vegas. I love all things robotics and video games; sometimes I get a chance to combine my love for both in the work I do by using Unity to create Virtual Reality Interfaces for Robots. On my website, I have some cool projects of stuff I've done in the past, take a look around!
