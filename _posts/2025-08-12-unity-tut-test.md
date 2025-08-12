@@ -11,7 +11,7 @@ related_posts: false
 
 This post shows how to add DISQUS comments.
 
----
+
 
 ## Introduction
 
@@ -20,7 +20,7 @@ Welcome! This post demonstrates:
 - Inserting **images**.
 - Keeping the post easy to read.
 
----
+
 
 ## Adding Images
 
