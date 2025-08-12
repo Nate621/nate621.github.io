@@ -1,36 +1,110 @@
 ---
 layout: post
 title: Unity Tutorial Test
-date: 2015-10-20 11:59:00-0400
-description: an example of a blog post with disqus comments
-tags: comments
-categories: sample-posts external-services
-disqus_comments: true
-related_posts: false
+date: 2025-08-12 14:24:00
+description: this is what included plotly.js code could look like
+tags: formatting charts
+categories: sample-posts
+chart:
+  plotly: true
 ---
 
-This post shows how to add DISQUS comments.
+This is an example post with some [plotly](https://plotly.com/javascript/) code.
 
+````markdown
+```plotly
+{
+  "data": [
+    {
+      "x": [1, 2, 3, 4],
+      "y": [10, 15, 13, 17],
+      "type": "scatter"
+    },
+    {
+      "x": [1, 2, 3, 4],
+      "y": [16, 5, 11, 9],
+      "type": "scatter"
+    }
+  ]
+}
+```
+````
 
+Which generates:
 
-## Introduction
+```plotly
+{
+  "data": [
+    {
+      "x": [1, 2, 3, 4],
+      "y": [10, 15, 13, 17],
+      "type": "scatter"
+    },
+    {
+      "x": [1, 2, 3, 4],
+      "y": [16, 5, 11, 9],
+      "type": "scatter"
+    }
+  ]
+}
+```
 
-Welcome! This post demonstrates:
-- Adding **sections** to your Markdown post.
-- Inserting **images**.
-- Keeping the post easy to read.
+Also another example chart.
 
+````markdown
+```plotly
+{
+  "data": [
+    {
+      "x": [1, 2, 3, 4],
+      "y": [10, 15, 13, 17],
+      "mode": "markers"
+    },
+    {
+      "x": [2, 3, 4, 5],
+      "y": [16, 5, 11, 9],
+      "mode": "lines"
+    },
+    {
+      "x": [1, 2, 3, 4],
+      "y": [12, 9, 15, 12],
+      "mode": "lines+markers"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Line and Scatter Plot"
+    }
+  }
+}
+```
+````
 
+This is how it looks like:
 
-## Adding Images
-
-To add an image in Markdown, use this syntax:
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+```plotly
+{
+  "data": [
+    {
+      "x": [1, 2, 3, 4],
+      "y": [10, 15, 13, 17],
+      "mode": "markers"
+    },
+    {
+      "x": [2, 3, 4, 5],
+      "y": [16, 5, 11, 9],
+      "mode": "lines"
+    },
+    {
+      "x": [1, 2, 3, 4],
+      "y": [12, 9, 15, 12],
+      "mode": "lines+markers"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Line and Scatter Plot"
+    }
+  }
+}
+```
