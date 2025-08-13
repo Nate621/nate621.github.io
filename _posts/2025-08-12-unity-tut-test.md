@@ -3,14 +3,23 @@ layout: post
 title: Unity Tutorial Test
 date: 2025-08-12 14:24:00
 description: this is what included plotly.js code could look like
-tags: formatting charts
+tags: code
 categories: sample-posts
 chart:
   plotly: true
+images:
+  compare: true
+  slider: true
 ---
 
 This is an example post with some [plotly](https://plotly.com/javascript/) code.
-
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
 ````markdown
 ```plotly
 {
