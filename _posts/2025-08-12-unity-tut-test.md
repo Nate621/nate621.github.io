@@ -6,6 +6,7 @@ description: this is what included plotly.js code could look like
 tags: code
 categories: sample-posts
 featured: true
+disqus_comments: true
 chart:
   plotly: true
 images:
