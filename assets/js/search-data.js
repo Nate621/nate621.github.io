@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/unity-tut-test/";
           
         },
+      },{id: "post-ubiquitous-robotics-ur-conference-2024",
+        
+          title: "Ubiquitous Robotics (UR) Conference 2024",
+        
+        description: "My experience at the UR 2024 Conference in New York",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/UR-2024-Conf/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
