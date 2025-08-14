@@ -31,9 +31,9 @@ latest_posts:
 Hi there! My name is Nathan Kassai. I am an undergraduate researcher at DASL—Drones and Autonomous Systems Laboratory—at the University of Nevada, Las Vegas. I love all things robotics and video games; sometimes I get a chance to combine my love for both in the work I do by using Unity to create Virtual Reality Interfaces for Robots. On my website, I have some cool projects of stuff I've done in the past, take a look around!
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; height: auto;" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; height: auto;" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; height: auto;" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; height: auto;" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; height: auto;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" style="width: 50%; height: auto;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" style="width: 50%; height: auto;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" style="width: 50%; height: auto;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" style="width: 50%; height: auto;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" style="width: 50%; height: auto;" %}</swiper-slide>
 </swiper-container>
