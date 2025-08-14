@@ -16,9 +16,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-swiper-container {
-  margin-top: 2rem;
-}
+
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -29,7 +27,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
+swiper-container {
+  margin-top: 2rem;
+}
 Hi there! My name is Nathan Kassai. I am an undergraduate researcher at DASL—Drones and Autonomous Systems Laboratory—at the University of Nevada, Las Vegas. I love all things robotics and video games; sometimes I get a chance to combine my love for both in the work I do by using Unity to create Virtual Reality Interfaces for Robots. On my website, I have some cool projects of stuff I've done in the past, take a look around!
 
 
